@@ -59,7 +59,7 @@ app:
     - name: jmsQueue_ghettoes1Node01_server1_MQQueue_1724680050895_baseQueueName
       value: "DEV.QUEUE.1"
     - name: MQ_ghettoes1Node01Cell_MQQueueConnectionFactory_1724680626143_host
-      value: "johnc-9841.qm1230.private.us-east.mq2.appdomain.cloud"
+      value: "johnc-e029.qm1230.private.us-east.mq2.appdomain.cloud"
     - name: DB2_Universal_JDBC_Driver_XA_DataSource_ghettoes1Node01Cell_DataSource_1724255898616_serverName
       value: "9.46.111.27"
     - name: MQ_ghettoes1Node01Cell_MQQueueConnectionFactory_1724680626143_queueManager
@@ -77,7 +77,7 @@ app:
     - name: MQ_ghettoes1Node01Cell_MQQueueConnectionFactory_1724680626143_channel
       value: "CLOUD.APP.SVRCONN"
     - name: UNIVERSAL_JDBC_DRIVER_PATH
-      value: "${server.config.dir}/lib/global"
+      value: "${server.config.dir}/lib/"
     - name: httpEndpoint_secure_port
       value: "443"
     - name: DB2_Universal_JDBC_Driver_XA_DataSource_ghettoes1Node01Cell_DataSource_1724255898616_portNumber
