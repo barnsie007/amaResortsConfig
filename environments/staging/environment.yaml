@@ -57,13 +57,13 @@ app:
     - name: jmsQueue_ghettoes1Node01_server1_MQQueue_1724680050895_baseQueueName
       value: "DEV.QUEUE.1"
     - name: MQ_ghettoes1Node01Cell_MQQueueConnectionFactory_1724680626143_host
-      value: "9.46.78.247"
+      value: "johnc-e029.qm1230.private.us-east.mq2.appdomain.cloud"
     - name: DB2_Universal_JDBC_Driver_XA_DataSource_ghettoes1Node01Cell_DataSource_1724255898616_serverName
       value: "9.46.111.27"
     - name: httpEndpoint_host_13
       value: "*"
     - name: MQ_ghettoes1Node01Cell_MQQueueConnectionFactory_1724680626143_queueManager
-      value: "MMX_QM"
+      value: "JOHNC"
     - name: NodeDefaultSSLSettings_ghettoes1Node01Cell_SSLConfig_ghettoes1Node01_1_sslProtocol
       value: "TLS"
     - name: io_openliberty_sample_system_inMaintenance
@@ -71,7 +71,7 @@ app:
     - name: DB2_Universal_JDBC_Driver_XA_DataSource_ghettoes1Node01Cell_DataSource_1724255898616_databaseName
       value: "testdb"
     - name: MQ_ghettoes1Node01Cell_MQQueueConnectionFactory_1724680626143_port
-      value: "3414"
+      value: "443"
     - name: MQ_ghettoes1Node01Cell_MQQueueConnectionFactory_1724680626143_channel
       value: "CLOUD.APP.SVRCONN"
     - name: UNIVERSAL_JDBC_DRIVER_PATH
